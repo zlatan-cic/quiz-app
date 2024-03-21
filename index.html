@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!-- <div id="app"></div> -->
+    <div class="big-container">
+      <div class="container" id="quiz">
+        <div class="wrapper" >
+          <div class="box">
+            <!-- box color -->
+          </div>
+          <div class="quiz-con">
+            <h2 class="title">Question Quiz</h2>
+            <h3 class="question-title" id="question">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              error autem alias. Mollitia.
+            </h3>
+            <ul>
+              <li>
+                <input type="radio" id="a" name="answer" class="answer" />
+                <label id="a_text" for="a"> lorem 5 </label>
+              </li>
+              <li>
+                <input type="radio" id="b" name="answer" class="answer" />
+                <label id="b_text" for="b"> Question </label>
+              </li>
+              <li>
+                <input type="radio" id="c" name="answer" class="answer" />
+                <label id="c_text" for="c"> Question </label>
+              </li>
+              <li>
+                <input type="radio" id="d" name="answer" class="answer" />
+                <label id="d_text" for="d"> Question </label>
+              </li>
+            </ul>
+            <div class="btn-container">
+              <button class="btn" id="btn">Submit</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="box box-m"></div>
+          <div class="wrapper-modal">
+            <h2 class="title title-m">
+              You answer corretly at ${score}/${quizData.length} questions
+            </h2>
+            <button class="btn">Reload</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
