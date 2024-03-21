@@ -11,6 +11,8 @@ This project is a simple, interactive web-based quiz application built with HTML
 - Aesthetic UI with responsive design.
 - Easy to add or modify quiz questions.
 
+#### Preview: ***https://quiz-app-drab-two.vercel.app/***
+
 ### Installation
 
 Clone the repository to your local machine:
